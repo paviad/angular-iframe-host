@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-old-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'iframe';
+export class AppComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 }
